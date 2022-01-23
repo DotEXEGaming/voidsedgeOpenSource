@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "voids_edge:blocks/vfterminaltop",
+    "up": "voids_edge:blocks/vfterminaltop",
+    "north": "voids_edge:blocks/vfterminaltexturefront",
+    "east": "voids_edge:blocks/vfterminaltexturefront",
+    "south": "voids_edge:blocks/vfterminaltexturefront",
+    "west": "voids_edge:blocks/vfterminaltexturefront",
+    "particle": "voids_edge:blocks/vfterminaltop"
+  }
+}

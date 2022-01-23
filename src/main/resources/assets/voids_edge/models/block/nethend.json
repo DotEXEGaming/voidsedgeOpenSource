@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "voids_edge:blocks/nethendtexture",
+    "particle": "voids_edge:blocks/nethendtexture"
+  }
+}

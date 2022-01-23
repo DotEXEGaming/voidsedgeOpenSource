@@ -1,0 +1,174 @@
+{
+  "mod_elements": [
+    {
+      "name": "VoidfactoryGUI",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidfactory_gui"
+    },
+    {
+      "name": "VFCore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vf_core"
+    },
+    {
+      "name": "VFFrame",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vf_frame"
+    },
+    {
+      "name": "VFTerminal",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vf_terminal"
+    },
+    {
+      "name": "Nethend",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethend"
+    },
+    {
+      "name": "Nethendrecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethendrecipe"
+    },
+    {
+      "name": "VFCoreCPU",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vf_core_cpu"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "Rubyrecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyrecipe"
+    },
+    {
+      "name": "Vfcorecpurecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vfcorecpurecipe"
+    },
+    {
+      "name": "Vfcorerecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vfcorerecipe"
+    },
+    {
+      "name": "Vfframerecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vfframerecipe"
+    },
+    {
+      "name": "Vfterminalrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vfterminalrecipe"
+    },
+    {
+      "name": "VFTerminalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vf_terminal_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.voids_edge.vf_core": "VF Core",
+      "block.voids_edge.nethend": "Nethend",
+      "block.voids_edge.vf_terminal": "VF Terminal",
+      "item.voids_edge.ruby": "Ruby",
+      "block.voids_edge.vf_frame": "VF Frame",
+      "item.voids_edge.vf_core_cpu": "VF Core CPU"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "voids_edge",
+    "modName": "Void\u0027s Edge",
+    "version": "1.0.0",
+    "author": "peica, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.voidsedge",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
